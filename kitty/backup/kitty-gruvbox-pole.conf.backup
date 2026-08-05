@@ -1,0 +1,91 @@
+# FONT
+font_family       family="Adwaita Mono"
+bold_font         auto
+italic_font       auto
+bold_italic_font  auto
+font_size         11
+disable_ligatures yes
+
+# SHELL
+shell             zsh
+shell_integration disabled
+
+# CURSOR
+cursor_shape					 block 
+cursor_shape_unfocused underline
+cursor_blink_interval	 0
+cursor_trail					 1
+cursor_trail_decay		 0.1 0.3
+
+# SCROLLBACK
+scrollback_lines							3000
+scrollbar_interactive					no
+scrollbar_handle_opacity      0
+scrollbar_track_opacity       0
+scrollbar_track_hover_opacity 0
+
+# MOUSE
+mouse_hide_wait			 -1
+url_style						 curly
+underline_hyperlinks always
+
+# TERMINAL BELL
+enable_audio_bell no
+
+# LAYOUT
+remember_window_size	no
+initial_window_width  640
+initial_window_height 400
+window_padding_width	2
+
+# WINDOW
+background_image              none
+background_opacity            0.8
+background_blur								1
+scrollbar_handle_opacity      0
+scrollbar_track_opacity       0
+scrollbar_track_hover_opacity 0
+confirm_os_window_close       0
+
+# Theme Gruvbox
+background           #000000
+foreground           #EBDBB2
+selection_foreground #928374
+selection_background #EBDBB2
+
+cursor               #928374
+cursor_text_color    #000000
+
+url_color            #83A598
+
+# Black
+color0               #665C54
+color8               #7C6F64
+
+# Red
+color1               #CC241D
+color9               #FB4934
+
+# Green
+color2               #98971A
+color10              #B8BB26
+
+# Yellow
+color3               #D79921
+color11              #FABD2F
+
+# Blue
+color4               #458588
+color12              #83A598
+
+# Magenta
+color5               #B16286
+color13              #D3869B
+
+# Aqua
+color6               #689d6A
+color14              #8EC07C
+
+# White
+color7               #A89984
+color15              #BDAE93

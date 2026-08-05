@@ -1,0 +1,28 @@
+window-rule {
+  draw-border-with-background false
+	clip-to-geometry true
+}
+
+window-rule {
+	match app-id="kitty"
+	match app-id="firefox"
+	match app-id="emacs"
+	match app-id="feh"
+	match title="Spotify"
+
+  draw-border-with-background false
+	open-maximized true
+}
+
+window-rule {
+	match app-id="power-menu"
+	match app-id="mmp"
+
+	open-floating true
+}
+
+
+layer-rule {
+    match namespace="^wallpaper$"
+    place-within-backdrop true
+}

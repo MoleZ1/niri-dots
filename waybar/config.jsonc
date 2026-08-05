@@ -1,0 +1,115 @@
+{
+	"position": "top",
+	"spacing": 10,
+	"reload_style_on_change": true,
+	"modules-left": [
+		"niri/workspaces",
+		"custom/weather"
+	],
+	"modules-center": [
+		"backlight",
+		"clock",
+		"pulseaudio"
+	],
+	"modules-right": [
+		"niri/window",
+		"network",
+		"battery"
+	],
+	// Modules left
+	"niri/workspaces": {
+		"format": "{icon}",
+		"workspace-taskbar": {
+			"enable": true,
+			"icon-size": 18
+		}
+	},
+	"custom/weather": {
+		"exec": "~/.config/waybar/scripts/weather.sh",
+		"return-type": "json",
+		"interval": 1800,
+		"tooltip": true
+	},
+	// Modules center
+	"backlight": {
+		"device": "intel_backlight",
+		"format": "{percent}% {icon}",
+		"format-icons": [
+			"",
+			""
+		],
+		"tooltip": false
+	},
+	"clock": {
+		"interval": 60,
+		"tooltip": true,
+		"format": "{:%H:%M}",
+		"tooltip-format": "{:%d-%m-%Y}"
+	},
+	"pulseaudio": {
+		"format": "{volume}% {icon}",
+		"format-bluetooth": "{volume}% {icon}",
+		"format-muted": "N/S ",
+		"format-icons": {
+			"alsa_output.pci-0000_00_1f.3.analog-stereo": "",
+			"alsa_output.pci-0000_00_1f.3.analog-stereo-muted": "",
+			"headphone": "",
+			"hands-free": "",
+			"headset": "",
+			"phone": "",
+			"phone-muted": "",
+			"portable": "",
+			"car": "",
+			"default": [
+				"",
+				""
+			]
+		},
+		"scroll-step": 1,
+		"on-click": "pavucontrol",
+		"ignored-sinks": [
+			"Easy Effects Sink"
+		],
+		"tooltip": false
+	},
+	// Modules right
+	"niri/window": {
+		"format": "At: {}",
+		"max-length": 50,
+		"rewrite": {
+			"(.*) Firefox": "At: Firefox",
+			"(.*) - zsh": "> [$1]",
+			"(.*) nvim (.*)": "At: Neovim",
+			"(.*) Spotify Premium": "At: Spotify"
+		},
+		"tooltip": false
+	},
+	"network": {
+		"interface": "wlp3s0",
+		"format": "{ifname}",
+		"format-wifi": "{frequency} GHz ",
+		"format-ethernet": "{ipaddr}/{cidr} 󰊗",
+		"format-disconnected": "N/C",
+		"tooltip-format": "{ifname} via {gwaddr} 󰊗",
+		"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+		"tooltip-format-ethernet": "{ifname} ",
+		"tooltip-format-disconnected": "Disconnected",
+		"max-length": 50
+	},
+	"battery": {
+		"weighted-average": true,
+		"states": {
+			"warning": 25,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"max-length": 30
+	}
+}

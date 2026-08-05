@@ -1,0 +1,113 @@
+@import "./colors/colors_gruvbox.css";
+
+* {
+	border: none;
+	border-radius: 0;
+	font-family: "Iosevka Nerd Font";
+	font-size: 17px;
+	font-weight: bold;
+
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+#waybar>box {
+	margin: 20px 36px 10px 36px;
+}
+
+#custom-div {
+	color: @div;
+	padding: 0 2px;
+}
+
+.modules-left {
+	background: @bg;
+	color: @fg;
+	padding: 5px 0;
+	border: 1px solid @white;
+	box-shadow: 10px 10px @shadow;
+}
+
+.modules-center {
+	background: @bg;
+	color: @fg;
+	padding: 5px 10px;
+	border: 1px solid @white;
+	box-shadow: 10px 10px @shadow;
+}
+
+.modules-right {
+	background: @bg;
+	color: @fg;
+	padding: 5px 10px;
+	border: 1px solid @white;
+	box-shadow: 10px 10px @shadow;
+}
+
+#workspaces {
+	padding: 0 0 0 3px;
+}
+
+#workspaces button {
+	color: @fg;
+	padding: 0 6px;
+}
+
+#workspaces button.active {
+	color: @cyan
+}
+
+#window {
+	padding: 0 14px 0 0;
+}
+
+#pulseaudio {
+	padding: 0 10px 0 4px;
+	color: @magenta;
+}
+
+#clock {
+	color: @cyan;
+}
+
+#backlight {
+	padding: 0 10px 0 0;
+	color: @yellow
+}
+
+#cpu {
+	padding: 0 10px 0 2px;
+	color: @magenta;
+}
+
+#memory {
+	padding: 0 6px 0 0;
+	color: @blue;
+}
+
+#network {
+	padding: 0 7px 0 0;
+	color: @cyan
+}
+
+#battery {
+	padding: 0 11px 0 0;
+	color: @white;
+}
+
+#battery.charging {
+	color: @green;
+}
+
+#battery.warning {
+	color: @yellow;
+}
+
+#battery.critical {
+	color: @red;
+}

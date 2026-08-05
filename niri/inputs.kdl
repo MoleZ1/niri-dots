@@ -1,0 +1,23 @@
+input {
+  keyboard {
+	  repeat-delay 200
+	  repeat-rate 35
+		numlock
+		xkb { 
+			layout "latam" 
+		}
+  }
+  touchpad {
+	 	off
+    tap
+		accel-speed 0.6
+		accel-profile "flat"
+  }
+  mouse {
+		accel-profile "flat"
+	}
+  trackpoint {
+		accel-speed 0.2 
+	}
+	focus-follows-mouse max-scroll-amount="0%"
+}

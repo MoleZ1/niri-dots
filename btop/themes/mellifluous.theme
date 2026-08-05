@@ -1,0 +1,79 @@
+# Mellifluous - btop theme
+# Ported from ramojus/mellifluous.nvim (the "mellifluous" colorset, neutral dark variant)
+# https://github.com/ramojus/mellifluous.nvim
+#
+# Colors computed directly from the plugin's own Oklab/OKHSL color math to
+# match what mellifluous renders in Neovim, rather than eyeballed.
+
+# Main text color
+theme[main_fg]="#dadada"
+# Main background color
+theme[main_bg]="#1a1a1a"
+# Title color for boxes
+theme[title]="#dadada"
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#cbaa88"
+# Background color of selected item in processes box
+theme[selected_bg]="#2d2d2d"
+# Foreground color of selected item in processes box
+theme[selected_fg]="#dadada"
+# Color of inactive/disabled text
+theme[inactive_fg]="#4d4d4d"
+# Color of text appearing on top of graphs
+theme[graph_text]="#dadada"
+# Background color of the percentage meters
+theme[meter_bg]="#2d2d2d"
+# Misc colors for processes box (mini cpu graphs, memory graph, status text)
+theme[proc_misc]="#9f8f6f"
+
+# Box outlines
+theme[cpu_box]="#4d4d4d"
+theme[mem_box]="#4d4d4d"
+theme[net_box]="#4d4d4d"
+theme[proc_box]="#4d4d4d"
+theme[div_line]="#4d4d4d"
+
+# Temperature graph colors
+theme[temp_start]="#939374"
+theme[temp_mid]="#9f8f6f"
+theme[temp_end]="#be7c7d"
+
+# CPU graph colors
+theme[cpu_start]="#939374"
+theme[cpu_mid]="#9f8f6f"
+theme[cpu_end]="#be7c7d"
+
+# Mem/Disk free meter
+theme[free_start]="#7b9796"
+theme[free_mid]="#938ca8"
+theme[free_end]="#a8a1be"
+
+# Mem/Disk cached meter
+theme[cached_start]="#a3869f"
+theme[cached_mid]="#b99bb5"
+theme[cached_end]="#a3869f"
+
+# Mem/Disk available meter
+theme[available_start]="#939374"
+theme[available_mid]="#b3b393"
+theme[available_end]="#939374"
+
+# Mem/Disk used meter
+theme[used_start]="#9f8f6f"
+theme[used_mid]="#cbaa88"
+theme[used_end]="#be7c7d"
+
+# Download graph colors
+theme[download_start]="#938ca8"
+theme[download_mid]="#a8a1be"
+theme[download_end]="#a3869f"
+
+# Upload graph colors
+theme[upload_start]="#9f8f6f"
+theme[upload_mid]="#cbaa88"
+theme[upload_end]="#be7c7d"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#939374"
+theme[process_mid]="#9f8f6f"
+theme[process_end]="#be7c7d"

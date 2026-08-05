@@ -1,0 +1,86 @@
+# FONT
+font_family				family="Adwaita Mono"
+bold_font					auto
+italic_font				auto
+bold_italic_font	auto
+font_size					12
+disable_ligatures always
+
+# SHELL
+shell							zsh
+shell_integration disabled
+
+# CURSOR
+cursor_shape					 block 
+cursor_shape_unfocused underline
+cursor_blink_interval	 0
+cursor_trail					 1
+cursor_trail_decay		 0.1 0.3
+
+# SCROLLBACK
+scrollback_lines							3000
+scrollbar_interactive					no
+scrollbar_handle_opacity      0
+scrollbar_track_opacity       0
+scrollbar_track_hover_opacity 0
+
+# MOUSE
+mouse_hide_wait			 -1
+url_style						 curly
+underline_hyperlinks always
+
+# TERMINAL BELL
+enable_audio_bell no
+
+# LAYOUT
+remember_window_size	no
+initial_window_width  640
+initial_window_height 400
+window_padding_width	10
+
+# WINDOW
+background_image				none
+confirm_os_window_close 0
+
+# COLORS
+background					 #000000
+foreground           #FFFFFF
+selection_background #272727
+selection_foreground #B0B0B0
+
+cursor							 #B0B0B0
+cursor_text_color    #000000
+
+url_color            #D9BA73
+
+# Black
+color0							 #101010
+color8							 #666666
+
+# Red
+color1							 #FF5733
+color9							 #FF7676
+
+# Green
+color2							 #86CD82
+color10							 #A3D6A3
+
+# Yellow
+color3							 #D9BA73
+color11							 #FFFFFF
+
+# Blue
+color4							 #B3B3B3
+color12							 #666666
+
+# Magenta
+color5							 #F2A4DB
+color13							 #F4B8E4
+
+# Aqua
+color6							 #5ABFB5
+color14							 #FAFAFA
+
+# White
+color7							 #A5ADCE
+color15							 #B5BFE2

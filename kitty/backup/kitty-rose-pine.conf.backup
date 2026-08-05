@@ -1,0 +1,87 @@
+# FONT
+font_family				family="Iosevka Nerd Font Mono"
+bold_font					auto
+italic_font				auto
+bold_italic_font	auto
+font_size					12.5
+disable_ligatures always
+
+# SHELL
+shell							zsh
+shell_integration disabled
+
+# CURSOR
+cursor_shape					 block 
+cursor_shape_unfocused underline
+cursor_blink_interval	 0
+cursor_trail					 1
+cursor_trail_decay		 0.1 0.3
+
+# SCROLLBACK
+scrollback_lines							3000
+scrollbar_interactive					no
+scrollbar_handle_opacity      0
+scrollbar_track_opacity       0
+scrollbar_track_hover_opacity 0
+
+# MOUSE
+mouse_hide_wait			 -1
+url_style						 curly
+underline_hyperlinks always
+
+# TERMINAL BELL
+enable_audio_bell no
+
+# LAYOUT
+remember_window_size	no
+initial_window_width  640
+initial_window_height 400
+window_padding_width	2
+
+# WINDOW
+background_image				none
+background_opacity			0.80
+confirm_os_window_close 0
+
+# COLORS
+background           #191724
+foreground           #E0DEF4
+selection_background #403d52
+selection_foreground #E0DEF4
+
+cursor               #524f67
+cursor_text_color    #E0DEF4
+
+url_color            #C4A7E7
+
+# Black
+color0							 #26233A
+color8							 #6E6A86
+
+# Red
+color1							 #EB6F92
+color9							 #EB6F92
+
+# Green
+color2							 #31748F
+color10							 #31748F
+
+# Yellow
+color3							 #F6C177
+color11							 #F6C177
+
+# Blue
+color4							 #9CCFD8
+color12							 #9CCFD8
+
+# Magenta
+color5							 #C4A7E7
+color13							 #C4A7E7
+
+# Cyan
+color6							 #EBBCBA
+color14							 #EBBCBA
+
+# White
+color7							 #E0DEF4
+color15							 #E0DEF4

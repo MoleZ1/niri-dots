@@ -1,0 +1,35 @@
+layout {
+  gaps 24
+	center-focused-column "never"
+	always-center-single-column
+  preset-column-widths {}
+  default-column-width { 
+		proportion 0.5
+	}
+	focus-ring {
+		off 
+	}
+  border {
+		on
+		width 2
+  }
+	shadow {
+		on
+		// off
+		softness 4
+		spread -1
+		offset x=10 y=10
+	}
+	tab-indicator {
+		off
+	}
+	insert-hint {
+		off
+	}
+	struts {
+		top -6
+		bottom -4
+	}
+}
+
+animations {}

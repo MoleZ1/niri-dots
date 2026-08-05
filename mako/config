@@ -1,0 +1,8 @@
+max-history=4
+
+font="Iosevka Nerd Font 10"
+
+background-color=#26233a
+text-color=#E0DEF4
+border-color=#524F67
+progress-color=over #31748F

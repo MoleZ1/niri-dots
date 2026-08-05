@@ -1,0 +1,86 @@
+# FONT
+font_family       family="Adwaita Mono"
+bold_font         auto
+italic_font       auto
+bold_italic_font  auto
+font_size         11
+disable_ligatures yes
+
+# SHELL
+shell             zsh
+shell_integration disabled
+
+# CURSOR
+cursor_shape					 block 
+cursor_shape_unfocused underline
+cursor_blink_interval	 0
+cursor_trail					 1
+cursor_trail_decay		 0.1 0.3
+
+# SCROLLBACK
+scrollback_lines							3000
+scrollbar_interactive					no
+scrollbar_handle_opacity      0
+scrollbar_track_opacity       0
+scrollbar_track_hover_opacity 0
+
+# MOUSE
+mouse_hide_wait			 -1
+url_style						 curly
+underline_hyperlinks always
+
+# TERMINAL BELL
+enable_audio_bell no
+
+# LAYOUT
+remember_window_size	no
+initial_window_width  640
+initial_window_height 400
+window_padding_width	2
+
+# WINDOW
+background_image              none
+confirm_os_window_close       0
+
+# Theme Ryu
+background           #050505
+foreground           #D6D0C5
+selection_foreground #050505
+selection_background #D6D0C5
+
+cursor               #D6D0C5
+cursor_text_color    #050505
+
+url_color            #83A598
+
+# Black
+color0               #050505
+color8               #404040
+
+# Red
+color1               #DA614E
+color9               #DF6124
+
+# Green
+color2               #8B9388
+color10              #525e5a
+
+# Yellow
+color3               #51605b
+color11              #8B9388
+
+# Blue
+color4               #75897F
+color12              #75897F
+
+# Magenta
+color5               #C2A46D
+color13              #C2A46D
+
+# Aqua
+color6               #717C7C
+color14              #52565e
+
+# White
+color7               #D6D0C5
+color15              #FFF9ED

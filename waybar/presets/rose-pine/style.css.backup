@@ -1,0 +1,88 @@
+@import "./colors/colors_rose_pine.css";
+
+* {
+	border: none;
+	border-radius: 0;
+	font-family: "Iosevka Nerd Font";
+	font-size: 16px;
+	font-weight: bold;
+
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#custom-div {
+	color: @div;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+#waybar>box {
+	padding: 15px 20px;
+}
+
+.modules-left {
+	border: 2px double @magenta;
+	box-shadow: 6px 6px @shadow;
+	padding: 2px;
+}
+
+.modules-center {
+	border: 2px double @magenta;
+	box-shadow: 6px 6px @shadow;
+	padding: 4px;
+}
+
+.modules-right {
+	border: 2px double @magenta;
+	box-shadow: 6px 6px @shadow;
+	padding: 4px;
+}
+
+#workspaces button {
+	color: @fg;
+}
+
+#workspaces button.active {
+	color: @red;
+}
+
+#window {
+	color: @white;
+	padding: 0 10px 0 0;
+}
+
+#pulseaudio {
+	color: @blue;
+	padding: 0 8px 0 7px;
+}
+
+#clock {
+	color: @white;
+}
+
+#backlight {
+	color: @yellow;
+	padding: 0 14px 0 0;
+}
+
+#network {
+	color: @cyan;
+	padding: 0 10px 0 8px;
+}
+
+#battery {
+	color: @white;
+	padding: 0 14px 0 0;
+}
+
+#battery.charging {
+	color: @blue;
+}
+
+#battery.critical {
+	color: @red;
+}

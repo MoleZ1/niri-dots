@@ -1,0 +1,4 @@
+spawn-at-startup "waybar"
+spawn-at-startup "mako"
+spawn-sh-at-startup "swaybg -i ~/Pictures/Wallpaper/Girl_on_paint.png -m fill"
+spawn-sh-at-startup "gammastep -O 3000"
